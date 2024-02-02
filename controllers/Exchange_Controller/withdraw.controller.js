@@ -5,7 +5,7 @@ var nodemailer = require('nodemailer')
 const emailActivity = require('../emailActivity.controller');
 const AdminModel = require('../../models/admin.model');
 var speakeasy = require("speakeasy");
-const tansferAPIs = require('../API/tansferAPIs');
+const tansferAPIs = require('../API/transferAPIs');
 const mysql = require('mysql2');
 // create the pool
 const pool = mysql.createPool({ host: config.mysqlHost, user: config.user, password: config.password, database: config.database, port: config.mysqlPort });
